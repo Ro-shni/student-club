@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('guitar regpage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.one{
+   position: absolute;
+       margin-top: -20px;
+}
+.two {
+   display: block;
+       margin: 20px auto;
+       width: 43%;
+   }
+
+.three {
+   display: inline-block;
+       position: absolute;
+       right: 0px;
+       top: 20px;
+   ;
+   
+}
+
+.ul li {
+    margin-top: 20px;
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+.ul li a {
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    margin: 25px;
+}
+
+.ul li a:hover
+{
+    text-decoration: underline;
+    color: rgb(233, 38, 38);
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.9em;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 8px;
+    border: 2px solid rgb(146, 146, 143);
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(53, 52, 52);
+}
+
+
+
+.container {
+    color: aliceblue;
+    border: 2px solid rgb(79, 81, 79);
+    
+    padding: 50px;
+   margin: 100px 517px;
+    width: 25%;
+    
+    border-radius: 10px;
+}
+
+.form input {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 3px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px 70px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    font-family: Verdana,Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 70px;}
+
+.genderform{
+    background-color: rgba(144, 137, 137, 0.207);
+
+    }
